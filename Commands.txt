@@ -37,3 +37,11 @@ Git task
 	List the files you've changed and those you still need to add or commit:
 Coomand
 	git status
+
+Git task
+	Connect to a remote repository
+	If you haven't connected your local repository to a remote server, add the server to be able to push to it:	
+	List all currently configured remote repositories:	
+Command
+	git remote add origin <server>
+	git remote -v

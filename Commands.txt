@@ -6,7 +6,7 @@ Command
 	git config --global user.name "Sam Smith"
 	git config --global user.email sam@example.com
 
-Git Task
+Git task
 	Create a new local repository
 Command 
     git init
@@ -27,4 +27,9 @@ Git task
 	Commit any files you've added with git add, and also commit any files you've changed since then: 
 Command
 	git commit -a
+
+Git task
+	Send changes to the master branch of your remote repository:
+Command
+	git push origin master
 

@@ -1,6 +1,38 @@
+<<<<<<< HEAD
 Git task	Notes	Git commands
  Tell Git who you are	Configure the author name and email address to be used with your commits.
-Note that Git strips some characters (for example trailing periods) from user.name.
+ Note that Git strips some characters (for example trailing periods) from user.name.
 
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
+=======
+Git task
+Tell Git who you are	
+	Configure the author name and email address to be used with your commits.
+Command
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+Git Task
+	Create a new local repository
+Command 
+    git init
+
+Git task
+	Check out a repository
+Command
+    git clone /path/to/repository
+
+Git task
+	Add one or more files to staging (index):
+Command
+	git add <filename> (With this we can specify list of files that we could like to push)
+	git add * (With this we can commit all files with in the directory)
+
+Git task
+	Commit changes to head (but not yet to the remote repository):
+	Commit any files you've added with git add, and also commit any files you've changed since then: 
+Command
+	git commit -a
+
+>>>>>>> cb3f532cafde03aab6a8a8642f8b3a61e1a84704

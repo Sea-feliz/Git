@@ -21,3 +21,9 @@ Command
 	git add <filename> (With this we can specify list of files that we could like to push)
 	git add * (With this we can commit all files with in the directory)
 
+Git task
+	Commit changes to head (but not yet to the remote repository):
+	Commit any files you've added with git add, and also commit any files you've changed since then: 
+Command
+	git commit -a
+

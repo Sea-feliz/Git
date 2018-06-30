@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-Git task	Notes	Git commands
- Tell Git who you are	Configure the author name and email address to be used with your commits.
- Note that Git strips some characters (for example trailing periods) from user.name.
-
-git config --global user.name "Sam Smith"
-git config --global user.email sam@example.com
-=======
 Git task
-Tell Git who you are	
+	Tell Git who you are	
 	Configure the author name and email address to be used with your commits.
 Command
-git config --global user.name "Sam Smith"
-git config --global user.email sam@example.com
+	git config --global user.name "Sam Smith"
+	git config --global user.email sam@example.com
 
 Git Task
 	Create a new local repository
@@ -34,5 +26,3 @@ Git task
 	Commit any files you've added with git add, and also commit any files you've changed since then: 
 Command
 	git commit -a
-
->>>>>>> cb3f532cafde03aab6a8a8642f8b3a61e1a84704

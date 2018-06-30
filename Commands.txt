@@ -33,3 +33,10 @@ Git task
 Command
 	git push origin master
 
+<<<<<<< HEAD
+=======
+Git task
+	List the files you've changed and those you still need to add or commit:
+Coomand
+	git status
+>>>>>>> 42f918618cd92a710c5c82ecf5007953bc121f4c
